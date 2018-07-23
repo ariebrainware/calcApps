@@ -119,26 +119,6 @@ if (phi >= r) {
 }
 whitespace();
 
-// Level 9 temporary removed because for debugging purpose
-//
-// let A = prompt("Input first number: ", "0");
-// let B = prompt("Input second number: ", "0");
-// const numA = parseInt(A);
-// const numB = parseInt(B);
-
-// if (numA >= numB) {
-//   console.log("phi greater than r");
-
-//   alert("phi greater than r");
-// } else if (numA <= numB) {
-//   console.log("r greater than phi");
-//   alert("r greater than phi");
-// } else {
-//   console.error("[ERROR]Invalid input!!");
-//   alert("[ERROR]Invalid input!!");
-// }
-// whitespace()
-
 // Level 10
 
 let intA = 8;
@@ -173,44 +153,6 @@ whitespace();
  * Calculator Math
  * Level 14-15
  */
-// function calc(x, y, operator) {
-//   this.add = function() {
-//     return x + y;
-//   };
-
-//   this.substract = function() {
-//     return x - y;
-//   };
-
-//   this.multiply = function() {
-//     return x * y;
-//   };
-
-//   this.devide = function() {
-//     return x / y;
-//   };
-
-//   this.modulo = function() {
-//     return x % y;
-//   };
-
-//   let value = 0;
-//   if (operator == "add") {
-//     value = this.add();
-//   } else if (operator == "substract") {
-//     value = this.substract();
-//   } else if (operator == "multiply") {
-//     value = this.multiply();
-//   } else if (operator == "devide") {
-//     value = this.devide();
-//   } else if (operator == "modulo") {
-//     value = this.modulo();
-//   } else {
-//     return "Doesnt recognize the input!";
-//   }
-//   return value;
-// }
-
 let calc = {
   add: (x, y) => {
     return x + y;
@@ -415,11 +357,3 @@ var timeTools = {
     return x * 1000;
   }
 };
-
-// console.log("Get hours: " + t.getHours())
-// console.log("Get minutes: " + t.getMinutes())
-// console.log("Get seconds: " + t.getSeconds())
-// console.log("Get miliseconds: " + t.getMilliseconds())
-// conssole.log()
-
-// Level 23
