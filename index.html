@@ -19,27 +19,125 @@
     </div>
 
     <div class="container">
-        <div class="calc-main">
-            <div class="row">
-                <div class="col-sm col-sm-auto">
-                    <input type="number" id="val1" class="form-control" placeholder="0">
-                </div>
-                <div class="col-sm col-sm-auto text-center calc-sign">
-                    <label class="label">+</label>
-                </div>
-                <div class="col-sm col-sm-auto">
-                    <input type="number" id="val2" class="form-control" placeholder="0">
-                </div>
-                <div class="col-sm col-sm-auto">
-                    <div class="text-center">
-                        <button type="button" id="calc-btn-result" class="btn btn-outline-secondary">=</button>
+
+        <form id="form-add">
+            <div class="calc-main">
+                <div class="row">
+                    <div class="col-sm col-sm-auto">
+                        <input type="number" id="val1-add" class="form-control" value="0">
+                    </div>
+                    <div class="col-sm col-sm-auto text-center calc-sign">
+                        <label class="label">+</label>
+                    </div>
+                    <div class="col-sm col-sm-auto">
+                        <input type="number" id="val2-add" class="form-control" value="0">
+                    </div>
+                    <div class="col-sm col-sm-auto">
+                        <div class="text-center">
+                            <button type="submit" id="calc-btn-result" class="btn btn-outline-secondary">=</button>
+                        </div>
+                    </div>
+                    <div class="col-sm ">
+                        <input type="text" id="addResultField" disabled class="form-control text-center" value="0">
                     </div>
                 </div>
-                <div class="col-sm ">
-                    <input type="text" disabled class="form-control text-center" placeholder="?">
+            </div>
+        </form>
+
+        <form id="form-substract">
+            <div class="calc-main">
+                <div class="row">
+                    <div class="col-sm col-sm-auto">
+                        <input type="number" id="val1-substract" class="form-control" value="0">
+                    </div>
+                    <div class="col-sm col-sm-auto text-center calc-sign">
+                        <label class="label">-</label>
+                    </div>
+                    <div class="col-sm col-sm-auto">
+                        <input type="number" id="val2-substract" class="form-control" value="0">
+                    </div>
+                    <div class="col-sm col-sm-auto">
+                        <div class="text-center">
+                            <button type="submit" id="calc-btn-result" class="btn btn-outline-secondary">=</button>
+                        </div>
+                    </div>
+                    <div class="col-sm ">
+                        <input type="text" id="substractResultField" disabled class="form-control text-center" value="0">
+                    </div>
                 </div>
             </div>
-        </div>
+        </form>
+
+        <form id="form-multiply">
+            <div class="calc-main">
+                <div class="row">
+                    <div class="col-sm col-sm-auto">
+                        <input type="number" id="val1-multiply" class="form-control" value="0">
+                    </div>
+                    <div class="col-sm col-sm-auto text-center calc-sign">
+                        <label class="label">*</label>
+                    </div>
+                    <div class="col-sm col-sm-auto">
+                        <input type="number" id="val2-multiply" class="form-control" value="0">
+                    </div>
+                    <div class="col-sm col-sm-auto">
+                        <div class="text-center">
+                            <button type="submit" id="calc-btn-result" class="btn btn-outline-secondary">=</button>
+                        </div>
+                    </div>
+                    <div class="col-sm ">
+                        <input type="text" id="multiplyResultField" disabled class="form-control text-center" value="0">
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <form id="form-divide">
+            <div class="calc-main">
+                <div class="row">
+                    <div class="col-sm col-sm-auto">
+                        <input type="number" id="val1-divide" class="form-control" value="0">
+                    </div>
+                    <div class="col-sm col-sm-auto text-center calc-sign">
+                        <label class="label">/</label>
+                    </div>
+                    <div class="col-sm col-sm-auto">
+                        <input type="number" id="val2-divide" class="form-control" value="0">
+                    </div>
+                    <div class="col-sm col-sm-auto">
+                        <div class="text-center">
+                            <button type="submit" id="calc-btn-result" class="btn btn-outline-secondary">=</button>
+                        </div>
+                    </div>
+                    <div class="col-sm ">
+                        <input type="text" id="devideResultField" disabled class="form-control text-center" value="0">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <form id="form-modulo">
+            <div class="calc-main">
+                <div class="row">
+                    <div class="col-sm col-sm-auto">
+                        <input type="number" id="val1-modulo" class="form-control" value="0">
+                    </div>
+                    <div class="col-sm col-sm-auto text-center calc-sign">
+                        <label class="label">%</label>
+                    </div>
+                    <div class="col-sm col-sm-auto">
+                        <input type="number" id="val2-modulo" class="form-control" value="0">
+                    </div>
+                    <div class="col-sm col-sm-auto">
+                        <div class="text-center">
+                            <button type="submit" id="calc-btn-result" class="btn btn-outline-secondary">=</button>
+                        </div>
+                    </div>
+                    <div class="col-sm ">
+                        <input type="text" id="'moduloResultField" disabled class="form-control text-center" value="0">
+                    </div>
+                </div>
+            </div>
+        </form>
 
     </div>
 
