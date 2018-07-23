@@ -1,0 +1,22 @@
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 5%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.calc-header {
+    background-color: #c7ced8;
+    height: 200px;
+}
+
+.calc-sign {
+    font-size: 2em;
+        
+}
+
+.calc-main {
+    padding-top: 15px;
+}
