@@ -81,9 +81,9 @@ whitespace();
 
 // Level 6
 
-let speak1 = "HELL OF WORLD";
-let speak2 = "hell of old";
-let speak3 = "first sentence must be capitalize";
+const speak1 = "HELL OF WORLD";
+const speak2 = "hell of old";
+const speak3 = "first sentence must be capitalize";
 console.log(speak1.toLowerCase());
 console.log(speak2.toUpperCase());
 whitespace();
@@ -121,8 +121,8 @@ whitespace();
 
 // Level 10
 
-let intA = 8;
-let intB = 10;
+const intA = 8;
+const intB = 10;
 
 intA >= intB
   ? console.log("A greater than B")
@@ -131,7 +131,7 @@ whitespace();
 
 // Level 11
 
-let intC = 12;
+const intC = 12;
 console.log(4 >= intA >= 10);
 console.log(intB && intC); // will output the biggest the number
 whitespace();
@@ -145,7 +145,7 @@ console.log(mathRect(3, 4));
 
 // Level 13
 
-let rand = Math.random();
+const rand = Math.random();
 console.log("Random number: ", rand);
 whitespace();
 
@@ -357,3 +357,10 @@ var timeTools = {
     return x * 1000;
   }
 };
+
+
+//Store elementID
+
+const val1 = document.getElementById("val1")
+const val2 = document.getElementById("val2")
+val res = document.getElementById("res")
