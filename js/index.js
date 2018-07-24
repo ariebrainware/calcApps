@@ -1,17 +1,17 @@
 const formAdd = document.getElementById('form-add')
-const formAddResult = document.getElementById('addResultField')
+const addResultField = document.getElementById('add-result-field')
 
 const formSubstract = document.getElementById('form-substract')
-const formSubResult = document.getElementById('substractResultField')
+const substractResultField = document.getElementById('substract-result-field')
 
 const formMultiply = document.getElementById('form-multiply')
-const formMultiplyResult = document.getElementById('multiplyResultField')
+const multiplyResultField = document.getElementById('multiply-result-field')
 
 const formDivide = document.getElementById('form-divide')
-const formDivideResult = document.getElementById('divideResultField')
+const divideResultField = document.getElementById('divide-result-field')
 
 const formModulo = document.getElementById('form-modulo')
-const formModuloResult = document.getElementById('moduloResultField')
+const moduloResultField = document.getElementById('modulo-result-field')
 
 //Basic calc function
 
@@ -38,7 +38,7 @@ const addDom = (event) => {
   const val1 = Number(document.getElementById('val1-add').value)
   const val2 = Number(document.getElementById('val2-add').value)
   if (val1 && val2) {
-    formAddResult.innerHTML = calc.add(val1, val2)
+    addResultField.innerHTML = calc.add(val1, val2)
   }
 }
 
@@ -47,7 +47,7 @@ const substractDom = x => {
   const val1 = Number(document.getElementById('val1-substract').value)
   const val2 = Number(document.getElementById('val2-substract').value)
   if (val1 && val2) {
-    formMultiplyResult.innerHTML = calc.substract(val1, val2)
+    substractResultField.innerHTML = calc.substract(val1, val2)
   }
 }
 
@@ -56,7 +56,7 @@ const multiplyDom = x => {
   const val1 = Number(document.getElementById('val1-multiply').value)
   const val2 = Number(document.getElementById('val2-multiply').value)
   if (val1 && val2) {
-    formMultiplyResult.innerHTML = calc.multiply(val1, val2)
+    multiplyResultField.innerHTML = calc.multiply(val1, val2)
   }
 }
 
@@ -65,7 +65,7 @@ const divideDom = x => {
   const val1 = Number(document.getElementById('val1-divide').value)
   const val2 = Number(document.getElementById('val2-divide').value)
   if (val1 && val2) {
-    formDivideResult.innerHTML = calc.divide(val1, val2)
+    divideResultField.innerHTML = calc.divide(val1, val2)
   }
 }
 
@@ -74,7 +74,7 @@ const moduloDom = x => {
   const val1 = Number(document.getElementById('val1-modulo').value)
   const val2 = Number(document.getElementById('val2-modulo').value)
   if (val1 && val2) {
-    formModuloResult.innerHTML = calc.modulo(val1, val2)
+    moduloResultField.innerHTML = calc.modulo(val1, val2)
   }
 }
 
